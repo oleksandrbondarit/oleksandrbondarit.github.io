@@ -159,8 +159,11 @@ textarea:hover
     }
     .work td,
     .work th,
-    .work tr{
+    .work tr,
+    .work h3
+    {
         padding-left: 1px;
+        text-align:center;
     }
 }
 
