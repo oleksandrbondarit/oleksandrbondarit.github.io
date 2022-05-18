@@ -27,7 +27,12 @@ a{
 .avatarka{
     width: 200px;
     border-radius: 30px;
+    box-shadow: 4px 4px 20px white;
+    transition: 0.5s;
+}
+.avatarka:hover{
     box-shadow: 4px 4px 20px black;
+    transition: 0.5s;
 }
 .info p {
     color: #a3a3a3;
@@ -63,6 +68,7 @@ a{
     outline: none;
     font-family: inherit;
     color: #C0C0C0;
+    transition: 0.7s;
 }
 
 .container h3{
@@ -171,7 +177,16 @@ textarea:hover
         text-align:center;
     }
 }
-
+.social a:hover{
+    background-color: #555555;
+    border-radius: 30px;
+    transition: 0.7s;
+}
+.social a{
+    transition: 0.7s;
+    border-radius: 10px;
+    padding: 0px 6px 0px 6px;
+}
 
 
 
