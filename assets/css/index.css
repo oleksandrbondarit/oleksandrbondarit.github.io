@@ -10,9 +10,9 @@ body{
 }
 
 a:hover{
-color:red;
+color:white;
 transition: 0.4s;
-text-decoration:underline;
+text-decoration:none;
 }
 a:active{
     color: blue;
@@ -22,11 +22,17 @@ a:visited{
 }
 a{
     text-decoration: none;
+    transition: 0.4s;
     color: black;
 }
 .avatarka{
     width: 200px;
     border-radius: 30px;
+    box-shadow: 4px 4px 20px white;
+    transition: 0.5s;
+}
+.avatarka:hover{
+    transition: 0.5s;
     box-shadow: 4px 4px 20px black;
 }
 .info p {
@@ -157,6 +163,10 @@ textarea:hover
     border-radius: 50px;
     color:white;   
 }
+input,
+textarea{
+    transition: 1s;
+}
 @media (max-width: 700px) { 
     .main,.info{
         display: block;
@@ -171,6 +181,7 @@ textarea:hover
         text-align:center;
     }
 }
+
 
 
 
