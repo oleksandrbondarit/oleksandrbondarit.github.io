@@ -3,7 +3,7 @@
 
 body{
     background-image: url(../assets/img/backround.jpg) ;
-    background-size: cover;
+    background-size:cover;
     
     font-family: 'Roboto', sans-serif;
 }
@@ -48,4 +48,18 @@ body{
 .img a {
     text-decoration: none;
     cursor: default;
+}
+@media (max-width: 700px) { 
+    .main,.begint,.all{
+        display: block;
+        text-align: center;
+        font-size: 14px;
+    }
+    .img    
+    {
+        max-width: 500px;
+        /* display:contents; */
+        padding-left: 1px;
+        text-align:center;
+    }
 }
