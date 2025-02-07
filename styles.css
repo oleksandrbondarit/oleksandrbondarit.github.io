@@ -1,0 +1,31 @@
+body {
+    background: size 100%;;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(https://images.pexels.com/photos/887349/pexels-photo-887349.jpeg?cs=srgb&dl=pexels-designecologist-887349.jpg&fm=jpg);
+}    
+#hor{
+    max-width: 512px;
+}
+
+img {
+    max-width: 412px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    padding: 10px;
+}
+.images {
+    display: flex;
+    justify-content: center;  /* Центрує по горизонталі */
+    align-items: center;      /* Центрує по вертикалі */
+    height: 100vh; 
+}
+.img-container{
+    text-align: center;
+    color: white;
+}
+img:hover {
+    border-radius: 30%;
+    transform: scale(1.1);
+}
